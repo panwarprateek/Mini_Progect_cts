@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>com.cts.project</name>
+=======
+	<name>jenkinsTest</name>
+>>>>>>> 0337906 (changes)
 	<comment></comment>
 	<projects>
 	</projects>

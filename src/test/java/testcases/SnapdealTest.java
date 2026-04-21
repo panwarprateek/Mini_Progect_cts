@@ -31,6 +31,7 @@ public class SnapdealTest {
     public void setup() throws IOException {
 
         
+<<<<<<< HEAD
         System.out.println("Enter Browser Name (chrome/edge): ");
         Scanner sc = new Scanner(System.in);
         String browserName = sc.nextLine();
@@ -47,6 +48,24 @@ public class SnapdealTest {
         }
         sc.close();
 
+=======
+//        System.out.println("Enter Browser Name (chrome/edge): ");
+//        Scanner sc = new Scanner(System.in);
+//        String browserName = sc.nextLine();
+//
+//        if (browserName.equalsIgnoreCase("chrome")) {
+//            setDriver(OpenBrowser.chromeBrowser());
+//        }
+//        else if (browserName.equalsIgnoreCase("edge")) {
+//            setDriver(OpenBrowser.edgeBrowser());
+//        }
+//        else {
+//        	sc.close();
+//            throw new RuntimeException("Invalid browser name");
+//        }
+//        sc.close();
+    	setDriver(OpenBrowser.chromeBrowser());
+>>>>>>> 0337906 (changes)
         snapdeal = new SnapdealPage(getDriver());
         
     }
